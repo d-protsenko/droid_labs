@@ -7,7 +7,11 @@ fun main(args: Array<String>) {
 class JavaPrepared {
     companion object {
         fun booleanExpression(a: Boolean, b: Boolean, c: Boolean, d: Boolean): Boolean {
-            return (a and b) or (a and c) or (a and d) or (b and c) or (b and d) or (c and d)
+            var exp = 0
+            listOf(a, b, c, d).forEach {
+                if (it) exp++
+            }
+            return exp == 2
         }
 
         fun leapYearCount(year: Int): Int {
@@ -48,7 +52,7 @@ class JavaPrepared {
                 factorial(value - 1).multiply(BigInteger.valueOf(value.toLong()))
         }
 
-        fun mergeArray(nums1: Array<Int>, nums2: Array<Int>) : Array<Int> {
+        fun mergeArray(nums1: Array<Int>, nums2: Array<Int>): Array<Int> {
             var m = nums1.size
             var n = nums2.size
             var idx = m + n - 1
