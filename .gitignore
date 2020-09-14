@@ -1,0 +1,38 @@
+### General
+*~
+.DS_Store
+
+### Gradle template
+.gradle
+build/
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Gradle local properties
+# tbd
+# tbd
+
+### Java template
+# Compiled class file
+*.class
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDEA
+*.iml
+.idea/*
+!.idea/codeStyleSettings.xml
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
