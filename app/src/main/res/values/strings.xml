@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Metro Games</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Metro Games</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_different">About Developer</string>
+    <string name="menu_games">Games List</string>
+    <string name="list_item_back">Back</string>
+
+</resources>

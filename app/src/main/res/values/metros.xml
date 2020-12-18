@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name= "Metros">
+        <item>Metro 2033</item>
+        <item>Metro Last Light</item>
+        <item>Metro Exodus</item>
+    </string-array>
+    <string name= "Metro2033">
+        Metro 2033 - игра …
+    </string>
+</resources>

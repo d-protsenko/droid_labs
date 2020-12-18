@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/id_games_list"
+        android:icon="@drawable/ic_burger"
+        android:title="@string/menu_games" />
+
+    </group>
+
+        <item android:title="others">
+            <menu>
+            <item
+             android:id="@+id/dev_item_id"
+             android:icon="@drawable/ic_person_foreground"
+             android:title="@string/menu_different" />
+            </menu>
+        </item>
+</menu>
